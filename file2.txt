@@ -1,2 +1,3 @@
 line  is inserted by me ......
 line is inserted by mybranch - ahahahahaha
+line inserted by master in file 2
