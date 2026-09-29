@@ -1,0 +1,80 @@
+#  Maven build output
+target/
+
+# Compiled Java files
+*.class
+
+# Maven generated files
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+
+# mvnw
+# mvnw.cmd
+# .mvn/wrapper/maven-wrapper.properties
+
+#  Eclipse
+
+.classpath
+.project
+.settings/
+.factorypath
+.buildpath
+
+# Logs
+*.log
+logs/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary / Backup Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+# Local-only configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Secrets / Credentials
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# Cloud credentials
+.aws/
+.gcp/
+.azure/
+
+# Test / Coverage Reports
+jacoco.exec
+coverage/
+.coverage/
+
+# Docker
+docker-compose.override.yml
+
+# Local Docker environment
+docker/.env
+
+# OS / IDE specific
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
